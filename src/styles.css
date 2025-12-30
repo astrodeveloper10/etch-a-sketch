@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 1200px;
+    align-items: center;
+}
+
+button {
+    font-family: inherit;
+    padding: 8px 16px;
+}
+
+.button--container {
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    width: 960px;
+    height: 960px;
+}
+
+.active {
+    transition: background-color 1s;
+}
